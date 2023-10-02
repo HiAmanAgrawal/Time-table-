@@ -1,48 +1,86 @@
+/* Body Styles */
 body {
-  background-color: #FBE4E4;
-}
-tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-tbody tr:nth-child(odd) {
-  background-color: #ffffff;
-}
-thead {
-  background-color: #ec433e;
-  color: #ddd;
-}
-td,th {
-  border-bottom: 1px solid #ddd; 
-  padding: 25px;
-}
-.derivative {
-  padding: 2cm;
-}
-.lunch{
-  font-size: larger;
-}
-.logo{
-  padding-left: 100px;
-}
+    background-color: #FBE4E4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Right Navigation Styles */
+  .right-nav {
+    position: absolute;
+    top: 35px;
+    right: 80px;
+    display: inline;
+    font-size: 25px;
+    padding: 5px;
+  }
+  
+  /* Table Styles */
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto; /* Center the table */
+    margin-bottom: 0px;
+  }
+  
+  thead {
+    background-color: #ec433e;
+    color: #ddd;
+  }
+  
+  td, th {
+    border-bottom: 1px solid #ddd; 
+    padding: 22px; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Lunch Style */
+  .lunch {
+    font-size: larger;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    padding-left: 100px;
+    display: inline;
+  }
+  
+  /* Heading Styles */
   h3 {
-  text-align: center;
-}
-table{
-  border-collapse: collapse;
-  width: 70%;
-  height: 50px;
-}
-td,th{
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-a{
-  color: #ec433e;
-  text-decoration: none;
-  font-weight: 800;
-  font-family: 'Courier New', Courier, monospace;
-}
+    text-align: center;
+  }
+  
+  /* Link Styles */
+  a {
+    color: #ec433e;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  a:hover {
+    color: rgb(107, 2, 2);
+  }
+  
+  /* Divider Line Styles */
+  .line {
+    border: 1px solid red;
+    width: 70%;
+    margin: 0px auto; /* Center the line */
+  }
+  .profile_vector{
+    position: absolute;
+    right: 251px;
+    top: 4px;
+  }
+  img:hover{
+    cursor: pointer;
+  }
